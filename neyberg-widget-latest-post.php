@@ -1,6 +1,6 @@
 <?php
     /**
-     * Plugin Name: Neyberg widget: Latest post
+     * Plugin Name: Neyberg widget: Latest posts
      * Plugin URI: neyberg.com
      * Description: Widget for display latest articles with preview images.
      * Version:  1.0
@@ -17,7 +17,7 @@
                 'description' => __( 'Your site&#8217;s most recent Posts.' ),
                 'customize_selective_refresh' => true,
             );
-            parent::__construct( 'neyberg-recent-posts', __( 'Neyberg widget: Latest post' ), $widget_ops );
+            parent::__construct( 'neyberg-recent-posts', __( 'Neyberg widget: Latest posts' ), $widget_ops );
             $this->alt_option_name = 'neyberg_widget_recent_entries';
         }
 
